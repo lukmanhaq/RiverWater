@@ -1,4 +1,4 @@
-# 🌊 Siaga Banjir App
+# 🌊 Siaga Banjir App local
 
 Aplikasi peringatan dini banjir berbasis Flutter, dirancang untuk warga Jakarta.
 
@@ -61,4 +61,4 @@ flutter build apk --release
 - [ ] Halaman Evakuasi (daftar titik kumpul)
 - [ ] Halaman Profil
 - [ ] Notifikasi push
-- [ ] Integrasi API data banjir real-time (BPBD Jakarta)
+- [ ] Integrasi API data banjir real-time (BPBD Jember)
