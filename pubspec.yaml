@@ -1,0 +1,40 @@
+name: siaga_banjir
+description: Aplikasi peringatan dini banjir untuk Jakarta.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Tambahkan font Poppins:
+  # 1. Download dari https://fonts.google.com/specimen/Poppins
+  # 2. Taruh di folder: assets/fonts/
+  # 3. Uncomment baris di bawah ini:
+  #
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Poppins-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/Poppins-ExtraBold.ttf
+  #         weight: 800
+  #       - asset: assets/fonts/Poppins-Black.ttf
+  #         weight: 900
